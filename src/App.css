@@ -1,0 +1,50 @@
+.App-header {
+  color: rgb(227, 224, 224);
+  margin: auto 25rem;
+  
+}
+
+
+.body {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.body .blog-content {
+  min-width: 60%;
+  border: 1px solid #ccc;
+  margin: 2rem;
+
+}
+
+.blog-content .title{
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.blog-content .description{
+  margin: 2rem;
+}
+
+.side {
+  min-width: 30%;
+  border: 1px solid #ccc;
+  margin: 2rem;
+}
+.side-title {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.side-content {
+  margin: 1rem;
+}
+
+.footer {
+  margin-left: 10%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ccc;
+  width: 80%;
+}
