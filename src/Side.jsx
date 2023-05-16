@@ -1,3 +1,5 @@
+import Button from "./button";
+
 function Side () {
 
  const summary = [
@@ -25,14 +27,19 @@ function Side () {
     return (
         <div className="side">
             <h1 className="side-title">Summary</h1>
+            
         {
             summary.map((summary, index) => (
                 <div className="side-content" key={index}>
                     <h3>{summary.title}</h3>
                     <p>{summary.content}</p>
+                   <Button />
                 </div>
+                
             ))
+            
         }
+        
         </div>
     )
 }
