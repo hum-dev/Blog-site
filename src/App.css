@@ -1,3 +1,40 @@
+.nav-bar {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+  width: 30%;
+  margin: auto;
+  
+}
+.nav-links a {
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(230, 207, 242, 0.2);
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  color: rgb(227, 224, 224);
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 30%;
+  margin: auto;
+  
+}
+
+
 .App-header {
   color: rgb(227, 224, 224);
   margin: auto 25rem;
