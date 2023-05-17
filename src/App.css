@@ -2,6 +2,8 @@
   color: rgb(227, 224, 224);
   margin: auto 25rem;
   text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(41, 17, 53, 0.2);
+  border: 1px solid #ccc;
   
 }
 
