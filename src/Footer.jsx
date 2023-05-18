@@ -1,13 +1,11 @@
 function Footer () {
     const date = new Date();
 
-    const year = date.getFullYear();
-    const month = date.getMonth(); 
-    const day = date.getDate();
-    const myDate = `${month}/${day}/${year}`;
+    
+    const myDate = date.toString().slice(0, 15);
     return (
         <div className="footer">
-            <p> &copy; 2023 Humphrey</p>
+            <p>Humphrey &copy; 2023 </p>
             <p>{myDate}</p>
         </div>
     )
