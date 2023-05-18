@@ -1,7 +1,27 @@
 .nav-bar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  padding: 0;
 }
+.logo {
+  display: flex;
+  align-items: center;
+ margin: 1rem;
 
+}
+.logo h2 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  box-shadow: #ccc;
+}
+.logo .logo-img {
+  margin-right: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -29,9 +49,17 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  width: 30%;
-  margin: auto;
+
   
+  
+}
+
+.account>:first-child{
+  margin-right: 2rem;
+}
+
+.account>:last-child{
+  margin-right: 2rem;
 }
 
 
