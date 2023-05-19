@@ -51,6 +51,17 @@
   transition: all 0.3s ease-in;
   
 }
+.home {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.write {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
 .account {
   display: flex;
@@ -81,7 +92,12 @@
   text-transform: uppercase;
   box-shadow: 0 0 10px rgba(230, 207, 242, 0.2);
   text-align: center;
-  
+  transition: all 0.5s ease;
+}
+
+.App-header:hover {
+  border-radius: 8px;
+transform: rotate(4deg);
 }
 
 
@@ -121,7 +137,7 @@
 }
 
 .container {
-  margin:20rem auto;
+  margin:5rem auto;
   border: 1px solid #ddd;
   border-radius: 8px;
   max-width: 500px;
@@ -219,4 +235,33 @@ select {
 
 .about p:last-child {
   margin-bottom: 2rem;
+}
+.write-blog {
+  margin:3rem auto;
+  /* border: 1px solid #ddd;
+  border-radius: 8px; */
+  /* max-width: 500px; */
+  min-height: 50vh;
+  padding: 10px;
+}
+.publish {
+ border: 1px solid #ccc;
+  margin: 2rem;
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
+}
+
+.publish h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.publish .btn {
+  margin: 2rem auto;
+  
+  text-align: center;
 }
