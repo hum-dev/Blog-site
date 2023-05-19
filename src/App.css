@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -115,21 +121,20 @@
 }
 
 .container {
-  width: 80%;
-  margin:  auto;
+  margin:20rem auto;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 2rem; 
-  margin-right: 0;
+  max-width: 500px;
+  padding: 20px;
 }
 .form {
   
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(237, 230, 230, 0.1);
   background-color: #161F30;
 }
 
@@ -171,4 +176,47 @@ select {
 .dummy span {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  align-items: center;
+
+}
+
+.not-found h1 {
+  line-height: 1.1;
+  color: #ccc;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.not-found img {
+  width: 50%;
+  height: 50%;
+}
+
+.about {
+
+  text-align: center;
+  align-items: center;
+  /* margin: 2rem auto; */
+}
+
+.about span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+.about p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+.about p:last-child {
+  margin-bottom: 2rem;
 }

@@ -13,8 +13,9 @@ import Write from "./Pages/Write";
 import About from "./Pages/About";
 import SignUp from "./Pages/SignUp";
 import SignIn from "./Pages/SignIn";
-import Button from "./button";
+// import Button from "./button";
 import Dummy from "./Pages/Dummy";
+import NotFound from "./Pages/NotFound";
 
 function App() {
  
@@ -32,6 +33,7 @@ function App() {
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/dummy" element={<Dummy />} />
+      <Route path="*" element={<NotFound />} />
 
     </Routes>
 </BrowserRouter>

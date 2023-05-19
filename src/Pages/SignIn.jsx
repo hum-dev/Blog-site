@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 function SignIn() {
   return (
@@ -17,9 +17,10 @@ function SignIn() {
                      <label htmlFor="password">Password</label>
                      <input type="password" name="password" id="password" placeholder="Password"  min="8" max="10" required />
     
+                    
                      <button type="submit" name="login" className="btn">Login</button>
                 </form>
-            <p> Don't have an account? <a href="">Register Here</a></p> 
+            <p> Don't have an account? <a href=""><Link to = "/signup" >Register Here</Link></a></p> 
         </div>
         </div>
     

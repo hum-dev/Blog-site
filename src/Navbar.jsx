@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom"
-
+import Logo from "./assets/Images/portrait.png"
 import {} from "react-icons/fa"
 
 
@@ -9,7 +9,7 @@ function Navbar() {
   return (
 <div className="nav-bar">
 <div className="logo"> 
-        <img className="logo-img" src="/src/assets/Images/portrait.png" alt="" />
+        <img className="logo-img" src={Logo} alt="" />
         <h2 >Humz</h2>
         </div>
     <div className="nav-links">
